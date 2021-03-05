@@ -1,0 +1,22 @@
+{
+  "name": "jQuery-common-mark-editor",
+  "version": "1.0.0",
+  "description": "Common Mark Editor",
+  "main": "common-mark-editor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walkerchiu/jQuery-common-mark-editor.git"
+  },
+  "author": {
+    "name": "Walker Chiu",
+    "email": "chenjen.chiou@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walkerchiu/jQuery-common-mark-editor/issues"
+  },
+  "homepage": "https://github.com/walkerchiu/jQuery-common-mark-editor#readme"
+}
