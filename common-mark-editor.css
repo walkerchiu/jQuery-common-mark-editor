@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.JCME .JCME_Bar {
+    width: 100%;
+    background: #EEE;
+    padding: 5px;
+    margin: 0;
+    border-top: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+.JCME .JCME_Bar li {
+    display: inline;
+    padding: 5px 10px;
+    margin: 0;
+}
+.JCME .JCME_Bar .JCME_item_list > ul {
+    position: absolute;
+    display: none;
+    background: #EEE;
+    padding: 5px;
+    margin-top: 3px;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+}
+.JCME .JCME_Bar .JCME_item {
+    cursor: pointer;
+}
+.JCME .JCME_Bar .JCME_item:hover {
+    background: #DDD;
+}
+.JCME .JCME_Bar .JCME_item:active {
+    background: #CCC;
+}
+.JCME .JCME_Bar .JCME_item_disabled {
+    color: #CCC;
+    cursor: context-menu;
+}
+.JCME .JCME_view {
+    display: none;
+    padding: 10px;
+    border: 1px solid #CCC;
+    word-wrap: break-word;
+}
+.JCME .JCME_edit {
+    padding: 10px;
+}
+
+.JCME .JCME_view .text-justify { text-align: justify; text-justify: auto; }
+.JCME .JCME_view .text-left { text-align: left; }
+.JCME .JCME_view .text-center { text-align: center; }
+.JCME .JCME_view .text-right { text-align: right; }
